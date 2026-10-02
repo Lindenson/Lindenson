@@ -8,7 +8,7 @@
 
 <img src="assets/journey.svg" width="100%" alt="Career as a git graph, 1995 → now">
 
-1995: C and assembly inside a chemical plant's process-control system — my first published paper was about it, no kidding. The C never left: it still runs my garage → **[wol-micro](https://github.com/wol-micro)**. Then banks, a university lectern, a 1,200 MW power plant in Nigeria, ML forecasting before it had a hype cycle — SiForeca, an ML forecasting engine and data spider for the National Academy of Sciences of Ukraine — payments for Transplat, Vodafone's TOBi at telecom scale, and a few projects under NDA (can't show them, sorry). Today I instrument AI agents so they respect the architecture → **[architecture-workspace](https://github.com/Lindenson/architecture-workspace)**. Which, apparently, makes me an architect.
+1995: C and assembly inside a chemical plant's process-control system — my first published paper was about it, no kidding. The C never left: it still runs my garage → **[wol-micro](https://github.com/wol-micro)**. Then banks, a university lectern, a 1,200 MW power plant in Nigeria, ML forecasting before it had a hype cycle — SiForeca, an ML forecasting engine and data spider for the National Academy of Sciences of Ukraine — mobile payments and SoftPOS solutions with cryptography for Transplat, Vodafone's TOBi at telecom scale, and a few projects under NDA (can't show them, sorry). Today I instrument AI agents so they respect the architecture → **[architecture-workspace](https://github.com/Lindenson/architecture-workspace)**. Which, apparently, makes me an architect.
 
 ### `~/relationships`
 
