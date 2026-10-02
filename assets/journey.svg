@@ -85,12 +85,12 @@
   <!-- commits on side branch -->
   <g class="in" style="animation-delay:1.9s">
     <circle cx="490" cy="262" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
-    <text class="msg" x="490" y="290" text-anchor="middle">LuzRele</text>
-    <text class="sub" x="490" y="306" text-anchor="middle">STM32 · relay + PIR</text>
+    <text class="msg" x="490" y="290" text-anchor="middle">STM32 / FreeRTOS</text>
+    <text class="sub" x="490" y="306" text-anchor="middle">relays · PIR · FSMs</text>
   </g>
   <g class="in" style="animation-delay:2.1s">
     <circle cx="672" cy="262" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
-    <text class="msg" x="672" y="290" text-anchor="middle">garageAlarms</text>
-    <text class="sub" x="672" y="306" text-anchor="middle">ESP32 · in service</text>
+    <text class="msg" x="672" y="290" text-anchor="middle">garageAlarms platform</text>
+    <text class="sub" x="672" y="306" text-anchor="middle">IoT fleet meets CAP theorem</text>
   </g>
 </svg>
