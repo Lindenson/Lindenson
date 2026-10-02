@@ -8,7 +8,7 @@
 
 <img src="assets/journey.svg" width="100%" alt="Career as a git graph, 1995 → now">
 
-1995: C and assembly inside a chemical plant's process-control system — my first published paper was about it, no kidding. The C never left: it still runs my garage → **[wol-micro](https://github.com/wol-micro)**. Then banks, a university lectern, a 1,200 MW power plant in Nigeria, ML forecasting before it had a hype cycle → **[SiForeca](https://github.com/wol-pruebas/si-foreca)**, payments, and Vodafone's TOBi at telecom scale. Today I instrument AI agents so they respect the architecture → **[architecture-workspace](https://github.com/Lindenson/architecture-workspace)**. Which, apparently, makes me an architect.
+1995: C and assembly inside a chemical plant's process-control system — my first published paper was about it, no kidding. The C never left: it still runs my garage → **[wol-micro](https://github.com/wol-micro)**. Then banks, a university lectern, a 1,200 MW power plant in Nigeria, ML forecasting before it had a hype cycle — SiForeca, an ML forecasting engine and data spider for the National Academy of Sciences of Ukraine — payments for Transplat, Vodafone's TOBi at telecom scale, and a few projects under NDA (can't show them, sorry). Today I instrument AI agents so they respect the architecture → **[architecture-workspace](https://github.com/Lindenson/architecture-workspace)**. Which, apparently, makes me an architect.
 
 ### `~/relationships`
 
@@ -25,6 +25,17 @@
 <p>
   <a href="https://github.com/Lindenson/karate-authflow"><img src="assets/card-karate-authflow.svg" width="49%" alt="karate-authflow — transparent auth for Karate API tests"></a>
   <a href="https://github.com/wol-micro/garageAlarms"><img src="assets/card-garageAlarms.svg" width="49%" alt="garageAlarms — ESP32-S3 smoke and motion alarms to Telegram"></a>
+</p>
+
+### `~/deep-dive`
+
+The part I geek out on: **delivery guarantees and end-to-end cryptography.**
+[big-messenger](https://github.com/Lindenson/big-messenger) commits every message before it ACKs and never loses it after —
+and closed chats stay readable only on the two devices in them. The design essays explain how both promises hold at once:
+
+<p>
+  <a href="https://hormigasmessenger.github.io/messenger-design/"><img src="assets/essay-waterline.svg" width="49%" alt="Essay 01 — Below the Waterline: the Postgres outbox, the Redis watermark, and the road to Kafka"></a>
+  <a href="https://hormigasmessenger.github.io/messenger-design/encryption.html"><img src="assets/essay-encryption.svg" width="49%" alt="Essay 02 — The Message Only Two Devices Can Read: closed-chat E2EE with X3DH and Double Ratchet"></a>
 </p>
 
 ### `~/rules.yaml`

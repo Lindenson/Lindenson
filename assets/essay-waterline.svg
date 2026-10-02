@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 250" width="490" height="250" role="img" aria-label="Essay: Below the Waterline — the Postgres outbox, the Redis watermark, and the road to Kafka">
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .wave { animation: wave 6s linear infinite; }
+    @keyframes wave { to { transform: translateX(-120px); } }
+    .pkt { animation: pkt 3.2s ease-in-out infinite; }
+    @keyframes pkt { 0% { transform: translateX(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateX(212px); opacity: 0; } }
+    .shine { animation: shine 2.4s ease-in-out infinite; }
+    @keyframes shine { 50% { opacity: .35; } }
+    @media (prefers-reduced-motion: reduce) { .wave, .pkt, .shine { animation: none; } }
+  </style>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#39d0d8" stop-opacity="0.25"/><stop offset="1" stop-color="#39d0d8" stop-opacity="0"/></radialGradient>
+    <clipPath id="f"><rect x="1" y="1" width="488" height="248" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="490" height="250" fill="#0d1117"/>
+    <rect width="490" height="250" fill="url(#g)"/>
+    <text x="26" y="36" font-size="12" fill="#39d0d8" letter-spacing="2">ESSAY 01 · DELIVERY</text>
+    <text x="464" y="36" font-size="12" fill="#8b949e" text-anchor="end">read ↗</text>
+    <text x="26" y="74" font-size="25" font-weight="700" fill="#e6edf3">Below the Waterline</text>
+    <text x="26" y="104" font-size="13" fill="#c9d1d9">the Postgres outbox, the Redis watermark,</text>
+    <text x="26" y="123" font-size="13" fill="#c9d1d9">and the road to Kafka</text>
+    <rect x="26" y="142" width="61" height="22" rx="11" fill="#39d0d8" fill-opacity="0.12" stroke="#39d0d8" stroke-opacity="0.45"/><text x="56.5" y="157" font-size="12" text-anchor="middle" fill="#c9d1d9">outbox</text>
+  <rect x="95" y="142" width="112" height="22" rx="11" fill="#39d0d8" fill-opacity="0.12" stroke="#39d0d8" stroke-opacity="0.45"/><text x="151.0" y="157" font-size="12" text-anchor="middle" fill="#c9d1d9">at-least-once</text>
+  <rect x="215" y="142" width="120" height="22" rx="11" fill="#39d0d8" fill-opacity="0.12" stroke="#39d0d8" stroke-opacity="0.45"/><text x="275.0" y="157" font-size="12" text-anchor="middle" fill="#c9d1d9">ULID watermark</text>
+  <rect x="343" y="142" width="61" height="22" rx="11" fill="#39d0d8" fill-opacity="0.12" stroke="#39d0d8" stroke-opacity="0.45"/><text x="373.5" y="157" font-size="12" text-anchor="middle" fill="#c9d1d9">leases</text>
+    <g class="wave"><path d="M0 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0" transform="translate(0 196)" fill="none" stroke="#39d0d8" stroke-width="2" stroke-opacity="0.8"/></g>
+    <g class="wave" style="animation-duration:9s"><path d="M0 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0 q15 -7 30 0 t30 0" transform="translate(-15 206)" fill="none" stroke="#39d0d8" stroke-width="1.5" stroke-opacity="0.35"/></g>
+    <rect x="0" y="210" width="490" height="40" fill="#39d0d8" fill-opacity="0.06"/>
+    <text x="26" y="236" font-size="12" fill="#8b949e">ACK ⇒ durable. <tspan fill="#39d0d8">Everything below the line survives.</tspan></text>
+  </g>
+  <rect x="0.5" y="0.5" width="489" height="249" rx="14" fill="none" stroke="#39d0d8" stroke-opacity="0.5"/>
+</svg>
