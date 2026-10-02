@@ -24,7 +24,7 @@
 </p>
 <p>
   <a href="https://github.com/Lindenson/karate-authflow"><img src="assets/card-karate-authflow.svg" width="49%" alt="karate-authflow — transparent auth for Karate API tests"></a>
-  <a href="https://github.com/wol-micro/garageAlarms"><img src="assets/card-garageAlarms.svg" width="49%" alt="garageAlarms — ESP32-S3 smoke and motion alarms to Telegram"></a>
+  <a href="https://github.com/wol-micro/garageAlarms2.0"><img src="assets/card-garageAlarms.svg" width="49%" alt="garageAlarms2.0 — hubless Zigbee alarm network, no single point of failure"></a>
 </p>
 
 ### `~/deep-dive`
