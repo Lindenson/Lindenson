@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" width="490" height="220" role="img" aria-label="karate-authflow: Transparent auth for Karate API tests. Tests about behaviour, not credentials. Basic · Kratos · encrypted onboarding">
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .ring { animation: ring 1.8s ease-in-out infinite; }
+    @keyframes ring { 50% { opacity: .15; } }
+    .glow { animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .55; } }
+    @media (prefers-reduced-motion: reduce) { .ring, .glow { animation: none; } }
+  </style>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#e3b341" stop-opacity="0.22"/><stop offset="1" stop-color="#e3b341" stop-opacity="0"/></radialGradient>
+    <clipPath id="f"><rect x="1" y="1" width="488" height="218" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="490" height="220" fill="#0d1117"/>
+    <rect class="glow" width="490" height="220" fill="url(#g)"/>
+    <rect width="5" height="220" fill="#e3b341"/>
+  </g>
+  <rect x="0.5" y="0.5" width="489" height="219" rx="14" fill="none" stroke="#30363d"/>
+  <g transform="translate(26 22)"><circle cx="13" cy="20" r="8" fill="none" stroke="#e3b341" stroke-width="2.5"/><circle cx="13" cy="20" r="2.5" fill="#e3b341"/><path d="M21 20 h16 M31 20 v6 M36 20 v4" fill="none" stroke="#e3b341" stroke-width="2.5" stroke-linecap="round"/></g>
+  <text x="76" y="36" font-size="13" fill="#8b949e">Lindenson /</text>
+  <text x="76" y="60" font-size="24" font-weight="700" fill="#e6edf3">karate-authflow</text>
+  <text x="26" y="98" font-size="14.5" fill="#c9d1d9">Transparent auth for Karate API tests.</text>
+  <text x="26" y="120" font-size="14.5" fill="#8b949e">Tests about behaviour, not credentials.</text>
+  <text x="26" y="156" font-size="17" font-weight="700" fill="#e3b341">Basic · Kratos · encrypted onboarding</text>
+  <rect x="26" y="178" width="47" height="22" rx="11" fill="#e3b341" fill-opacity="0.12" stroke="#e3b341" stroke-opacity="0.45"/><text x="49.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Java</text>
+  <rect x="81" y="178" width="61" height="22" rx="11" fill="#e3b341" fill-opacity="0.12" stroke="#e3b341" stroke-opacity="0.45"/><text x="111.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Karate</text>
+  <rect x="150" y="178" width="91" height="22" rx="11" fill="#e3b341" fill-opacity="0.12" stroke="#e3b341" stroke-opacity="0.45"/><text x="195.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Ory Kratos</text>
+  <rect x="249" y="178" width="54" height="22" rx="11" fill="#e3b341" fill-opacity="0.12" stroke="#e3b341" stroke-opacity="0.45"/><text x="276.0" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Maven</text>
+  <text x="464" y="38" font-size="18" fill="#484f58" text-anchor="end">↗</text>
+</svg>

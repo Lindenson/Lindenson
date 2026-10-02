@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 220" width="490" height="220" role="img" aria-label="architecture-workspace: A living digital twin of your system. Claude — but it read the codebase first. MCP × Jira × Git × Sonar × jQA">
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .ring { animation: ring 1.8s ease-in-out infinite; }
+    @keyframes ring { 50% { opacity: .15; } }
+    .glow { animation: glow 3s ease-in-out infinite; }
+    @keyframes glow { 50% { opacity: .55; } }
+    @media (prefers-reduced-motion: reduce) { .ring, .glow { animation: none; } }
+  </style>
+  <defs>
+    <radialGradient id="g" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#a371f7" stop-opacity="0.22"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/></radialGradient>
+    <clipPath id="f"><rect x="1" y="1" width="488" height="218" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#f)">
+    <rect width="490" height="220" fill="#0d1117"/>
+    <rect class="glow" width="490" height="220" fill="url(#g)"/>
+    <rect width="5" height="220" fill="#a371f7"/>
+  </g>
+  <rect x="0.5" y="0.5" width="489" height="219" rx="14" fill="none" stroke="#30363d"/>
+  <g transform="translate(26 22)"><rect x="3" y="7" width="15" height="15" rx="3" fill="none" stroke="#a371f7" stroke-width="2.5"/><rect x="22" y="18" width="15" height="15" rx="3" fill="#a371f7" fill-opacity="0.35" stroke="#a371f7" stroke-width="2.5"/><path d="M18 14.5 h6.5 v3.5" fill="none" stroke="#a371f7" stroke-width="2.5"/><path d="M10.5 22 v5.5 h11.5" fill="none" stroke="#a371f7" stroke-width="2.5" stroke-dasharray="2.5 2.5"/></g>
+  <text x="76" y="36" font-size="13" fill="#8b949e">Lindenson /</text>
+  <text x="76" y="60" font-size="21" font-weight="700" fill="#e6edf3">architecture-workspace</text>
+  <text x="26" y="98" font-size="14.5" fill="#c9d1d9">A living digital twin of your system.</text>
+  <text x="26" y="120" font-size="14.5" fill="#8b949e">Claude — but it read the codebase first.</text>
+  <text x="26" y="156" font-size="17" font-weight="700" fill="#a371f7">MCP × Jira × Git × Sonar × jQA</text>
+  <rect x="26" y="178" width="69" height="22" rx="11" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/><text x="60.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Java 21</text>
+  <rect x="103" y="178" width="83" height="22" rx="11" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/><text x="144.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">Spring AI</text>
+  <rect x="194" y="178" width="39" height="22" rx="11" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/><text x="213.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">MCP</text>
+  <rect x="241" y="178" width="32" height="22" rx="11" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/><text x="257.0" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">C4</text>
+  <rect x="281" y="178" width="39" height="22" rx="11" fill="#a371f7" fill-opacity="0.12" stroke="#a371f7" stroke-opacity="0.45"/><text x="300.5" y="193" font-size="12" text-anchor="middle" fill="#c9d1d9">ADR</text>
+  <text x="464" y="38" font-size="18" fill="#484f58" text-anchor="end">↗</text>
+</svg>

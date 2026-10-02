@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-label="Terminal: whoami — Denys Lindenson, software architect, aka wolper">
+  <defs>
+    <linearGradient id="name" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#f89820"/>
+      <stop offset="0.5" stop-color="#00add8"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#a371f7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.05" cy="1" r="0.55">
+      <stop offset="0" stop-color="#00add8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00add8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="998" height="398" rx="16"/></clipPath>
+    <clipPath id="t1"><rect x="56" y="70" height="30" width="0"><animate attributeName="width" from="0" to="160" begin="0.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t2"><rect x="56" y="210" height="30" width="0"><animate attributeName="width" from="0" to="160" begin="2.1s" dur="0.45s" fill="freeze"/></rect></clipPath>
+    <clipPath id="t3"><rect x="56" y="290" height="30" width="0"><animate attributeName="width" from="0" to="200" begin="3.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="nameclip"><rect x="30" y="100" height="80" width="0"><animate attributeName="width" from="0" to="760" begin="0.95s" dur="0.8s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .in { opacity: 0; animation: in .45s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    .cursor { animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .in { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="400" fill="#0d1117"/>
+    <rect width="1000" height="400" fill="url(#grid)"/>
+    <rect width="1000" height="400" fill="url(#glowA)"/>
+    <rect width="1000" height="400" fill="url(#glowB)"/>
+    <rect width="1000" height="40" fill="#161b22"/>
+    <line x1="0" y1="40" x2="1000" y2="40" stroke="#30363d"/>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="399" rx="16" fill="none" stroke="#30363d"/>
+  <circle cx="26" cy="20" r="6.5" fill="#ff5f56"/>
+  <circle cx="48" cy="20" r="6.5" fill="#ffbd2e"/>
+  <circle cx="70" cy="20" r="6.5" fill="#27c93f"/>
+  <text x="500" y="25" text-anchor="middle" font-size="13" fill="#8b949e">wolper@lindenson: ~ — zsh — 30y×365d</text>
+
+  <!-- $ whoami -->
+  <text x="36" y="92" font-size="19" fill="#3fb950">❯</text>
+  <text x="58" y="92" font-size="19" fill="#e6edf3" clip-path="url(#t1)">whoami</text>
+  <g clip-path="url(#nameclip)">
+    <text x="34" y="158" font-size="56" font-weight="700" fill="url(#name)" letter-spacing="-1">Denys Lindenson</text>
+  </g>
+  <text class="in" style="animation-delay:1.75s" x="36" y="190" font-size="17" fill="#8b949e">architect · senior engineer · team lead · <tspan fill="#e3b341">aka wolper</tspan></text>
+
+
+  <!-- top: languages -->
+  <g class="in" style="animation-delay:1.9s">
+    <rect x="662" y="62" width="302" height="122" rx="10" fill="#161b22" fill-opacity="0.85" stroke="#30363d"/>
+    <text x="680" y="86" font-size="12.5" fill="#8b949e">top — langs <tspan fill="#484f58">· sorted by %LOVE</tspan></text>
+    <line x1="676" y1="96" x2="950" y2="96" stroke="#30363d"/>
+    <text x="680" y="120" font-size="14" fill="#f89820">java</text>
+    <rect x="760" y="109" width="150" height="12" rx="3" fill="#21262d"/>
+    <rect x="760" y="109" width="0" height="12" rx="3" fill="#f89820"><animate attributeName="width" from="0" to="141" begin="2.2s" dur="0.9s" fill="freeze"/></rect>
+    <text x="950" y="120" font-size="13" fill="#c9d1d9" text-anchor="end">94%</text>
+    <text x="680" y="145" font-size="14" fill="#00add8">go</text>
+    <rect x="760" y="134" width="150" height="12" rx="3" fill="#21262d"/>
+    <rect x="760" y="134" width="0" height="12" rx="3" fill="#00add8"><animate attributeName="width" from="0" to="71" begin="2.4s" dur="0.7s" fill="freeze"/></rect>
+    <text x="950" y="145" font-size="13" fill="#c9d1d9" text-anchor="end">47%</text>
+    <text x="680" y="170" font-size="14" fill="#a371f7">haskell</text>
+    <rect x="760" y="159" width="150" height="12" rx="3" fill="#21262d"/>
+    <rect x="760" y="159" width="0" height="12" rx="3" fill="#a371f7"><animate attributeName="width" from="0" to="5" begin="2.6s" dur="0.4s" fill="freeze"/></rect>
+    <text x="772" y="170" font-size="11" fill="#6e7681" font-style="italic">  (in dreams: 100%)</text>
+    <text x="950" y="170" font-size="13" fill="#c9d1d9" text-anchor="end">3%</text>
+  </g>
+
+  <!-- $ uptime -->
+  <text class="in" style="animation-delay:2s" x="36" y="232" font-size="19" fill="#3fb950">❯</text>
+  <text x="58" y="232" font-size="19" fill="#e6edf3" clip-path="url(#t2)">uptime</text>
+  <text class="in" style="animation-delay:2.7s" x="36" y="263" font-size="17" fill="#c9d1d9">up <tspan fill="#f89820" font-weight="700">30 years</tspan>, 1 user, load average: <tspan fill="#00add8">distributed</tspan> · still not bored</text>
+
+  <!-- $ cat motd -->
+  <text class="in" style="animation-delay:3.2s" x="36" y="312" font-size="19" fill="#3fb950">❯</text>
+  <text x="58" y="312" font-size="19" fill="#e6edf3" clip-path="url(#t3)">cat motd.txt</text>
+  <text class="in" style="animation-delay:4s" x="36" y="344" font-size="19" fill="#e3b341" font-style="italic">“Prompts are guidance. Architecture is a contract.”</text>
+
+  <g class="in" style="animation-delay:4.4s">
+    <text x="36" y="378" font-size="19" fill="#3fb950">❯</text>
+    <rect class="cursor" x="58" y="362" width="11" height="21" fill="#e6edf3"/>
+  </g>
+  <text class="in" style="animation-delay:4.6s" x="964" y="378" text-anchor="end" font-size="13" fill="#484f58">Alicante, ES · UTC+1 · ☕ λ</text>
+</svg>

@@ -1,70 +1,61 @@
-## Denys Lindenson <sub>aka wolper</sub>
+<div align="center">
+  <img src="assets/hero.svg" width="100%" alt="❯ whoami — Denys Lindenson, architect · senior engineer · team lead, aka wolper. ❯ uptime — up 30 years, load average: distributed. “Prompts are guidance. Architecture is a contract.”">
+</div>
 
-**Software Architect · Senior Software Engineer · Team Lead** — Alicante, Spain
+<br>
 
-> *Prompts are guidance. Architecture is a contract.*
+### `~/journey`
 
-Thirty years in software — from C and assembly in the process-control system of a chemical plant
-to high-load distributed platforms in telecom, banking and e-commerce.
-I'm at home where the CAP theorem actually matters: transactions and sagas, distributed locks,
-event streams, idempotency, and the trade-offs between them.
-A dedicated Java engineer who enjoys reactive and functional styles, and writes Go when it fits.
+<img src="assets/journey.svg" width="100%" alt="Career as a git graph, 1995 → now">
 
----
+1995: C and assembly inside a chemical plant's process-control system — my first published paper was about it, no kidding. The C never left: it still runs my garage → **[wol-micro](https://github.com/wol-micro)**. Then banks, a university lectern, a 1,200 MW power plant in Nigeria, ML forecasting before it had a hype cycle → **[SiForeca](https://github.com/wol-pruebas/si-foreca)**, payments, and Vodafone's TOBi at telecom scale. Today I instrument AI agents so they respect the architecture → **[architecture-workspace](https://github.com/Lindenson/architecture-workspace)**. Which, apparently, makes me an architect.
 
-### Now
+### `~/relationships`
 
-**Co-founder & Software Architect — Hormigas** (marketplace startup, 2025–)
-High-load marketplace platform built on DDD and event-driven patterns: Java · Go · Quarkus,
-a transactional payment subsystem with idempotency and anti-double-charge guarantees,
-real-time messaging, Ory Kratos / OAuth2 / OIDC identity, Kafka as the event backbone.
+<img src="assets/langs.svg" width="100%" alt="Java — married since 1.x. Go — it's complicated. Haskell — secret crush.">
 
-**Senior Software Engineer — Vodafone** (2023–)
-Multi-market conversational orchestration platform behind TOBi, Vodafone's virtual assistant:
-session lifecycle, dialog management, failover, distributed locks, consistent-hash routing.
-Among the first at Vodafone to integrate OpenAI; built an internal enterprise alternative to Spring AI.
-Drove the move to Java 21 virtual threads, plus JVM, GC and Kubernetes tuning.
+<sub>Also on speaking terms with: Kotlin · Python · TypeScript · Scala · C · Kafka · MongoDB · Redis · PostgreSQL · Kubernetes · AWS · Ory · OpenAI · Claude · MCP</sub>
 
-### Before
+### `~/projects`
 
-- **iSolutions.IO** (2019–2022) — banking and payment platforms, city-scale CRM, Camunda orchestration, fraud detection
-- **Institute of Industrial Economics, NAS of Ukraine** (2017–2019) — [SiForeca](https://github.com/wol-pruebas/si-foreca), a national platform for economic forecasting and large-scale data processing
-- **Zuma Energy, Nigeria** (2014–2016) — technical consultant and digitalization lead on a 1,200 MW power project
-- Earlier — banking process automation, university teaching, industrial process control
+<p>
+  <a href="https://github.com/Lindenson/big-messenger"><img src="assets/card-big-messenger.svg" width="49%" alt="big-messenger — reactive message-delivery engine, 3,000 msg/s, p95 20 ms, 0 lost"></a>
+  <a href="https://github.com/Lindenson/architecture-workspace"><img src="assets/card-architecture-workspace.svg" width="49%" alt="architecture-workspace — a living digital twin of your system"></a>
+</p>
+<p>
+  <a href="https://github.com/Lindenson/karate-authflow"><img src="assets/card-karate-authflow.svg" width="49%" alt="karate-authflow — transparent auth for Karate API tests"></a>
+  <a href="https://github.com/wol-micro/garageAlarms"><img src="assets/card-garageAlarms.svg" width="49%" alt="garageAlarms — ESP32-S3 smoke and motion alarms to Telegram"></a>
+</p>
 
-PhD in Economics (mathematical economics, econometrics) · Engineer, Donetsk National Technical University
+### `~/rules.yaml`
 
----
+```yaml
+architecture: contract     # prompts are just guidance
+ai_agents:    supervised   # ArchUnit + jQAssistant fail the build, not the reviewer
+guarantees:   tested       # if the README promises it, an e2e test checks it
+performance:  measured     # numbers come from Gatling, not vibes
+knowledge:    written_down # ADRs, C4, design notes — for whoever comes next
+```
 
-### Open source
+### `~/now`
 
-| Project | What it shows |
-|---|---|
-| [**big-messenger**](https://github.com/Lindenson/big-messenger) | Reactive message-delivery engine (Quarkus · Mutiny · PostgreSQL · Redis). Committed before ACK, at-least-once with leases and an outbox. Measured over real WebSockets: **~3,000 msg/s end-to-end, p95 20 ms, zero loss** |
-| [**architecture-workspace**](https://github.com/Lindenson/architecture-workspace) | A living digital twin of a software system: MCP servers (Spring AI, Java 21) feed Claude facts from Jira, Git, SonarQube and jQAssistant, so architectural answers come from the real code |
-| [**karate-authflow**](https://github.com/Lindenson/karate-authflow) | Transparent auth layer for Karate API tests — Basic, Ory Kratos sessions, encrypted device onboarding — so tests describe behaviour, not credentials |
-| [**garageAlarms**](https://github.com/wol-micro/garageAlarms) | ESP32-S3 firmware in service: smoke and motion alarms to Telegram with a power-cut-safe delivery queue |
+**Co-founder & architect** @ Hormigas — a high-load marketplace: DDD, events, payments that never double-charge
+**Senior software engineer** @ Vodafone — the conversational platform behind TOBi
+<sub>previously: iSolutions.IO · NAS of Ukraine · Zuma Energy (Nigeria) · banks · a chemical plant</sub>
 
-### How I work
+### `~/education`
 
-- **Architecture is code.** ArchUnit and jQAssistant rules fail the build — especially when AI agents write the code.
-- **Guarantees are written down and tested.** If the README promises it, an e2e test checks it.
-- **Measure, then claim.** Load tests before performance numbers.
-- **Leave notes for whoever comes next.** ADRs, C4 models, design essays, mentoring.
+🎓 **Engineer** — Donetsk National Technical University, 1995 · 📈 **PhD in Economics** — NAS of Ukraine, 1998
+<sub>…so yes, I can explain why your cloud bill is a game-theory problem.</sub>
 
-### Toolbox
+<br>
 
-**Languages** Java · Kotlin · Go · Python · TypeScript · Scala · C
-**Backend** Spring Boot / Cloud · Quarkus · Mutiny · Akka Streams · Camunda
-**Data & messaging** PostgreSQL · MongoDB · Redis · Kafka · Elasticsearch · MinIO
-**Security** Ory Kratos / Hydra · OAuth2 / OIDC · JWT · Signal protocol (X3DH, Double Ratchet)
-**Platform** Kubernetes · AWS (EKS, RDS, S3, Lambda) · GitOps CI/CD · observability
-**Quality** JUnit 5 · Karate · Gatling · ArchUnit · jQAssistant · SonarQube
-**AI** OpenAI · Claude · MCP · Spring AI
-**Embedded** ESP32 · STM32 · Zigbee · MQTT
+<div align="center">
+<sub>
 
----
+`cd` [wol-micro](https://github.com/wol-micro) — firmware & smart home ·
+[wol-juegos](https://github.com/wol-juegos) — games, [▶ play one](https://wol-juegos.github.io/TresEnRaya/) ·
+[wol-pruebas](https://github.com/wol-pruebas) — drafts & experiments
 
-🔌 [wol-micro](https://github.com/wol-micro) — smart home & microcontrollers ·
-🎮 [wol-juegos](https://github.com/wol-juegos) — small games, [playable in the browser](https://wol-juegos.github.io/TresEnRaya/) ·
-🧪 [wol-pruebas](https://github.com/wol-pruebas) — drafts and experiments
+</sub>
+</div>
